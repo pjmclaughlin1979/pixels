@@ -335,7 +335,7 @@ require([
   var initialBlueBand = 2;
 
   var layer = new ImageryLayer({
-    url: 'https://landsat.arcgis.com/arcgis/rest/services/Landsat8_Views/ImageServer',
+    url: 'https://sentinel.arcgis.com/arcgis/rest/services/Sentinel2/ImageServer',
     // renderingRule: rasterFunctionNone,
     renderingRule: createExtractAndStretchRasterFunction([initialRedBand, initialGreenBand, initialBlueBand]),
     pixelFilter: pixelFilter,
