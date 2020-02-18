@@ -17,7 +17,7 @@ require([
       basemap: 'dark-gray'
     }),
     zoom: 8,
-    center: [-122, 46.5]
+    center: [-5.937, 54.594]
   });
 
   view.ui.add(new Search({
