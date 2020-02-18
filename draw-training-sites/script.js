@@ -40,8 +40,8 @@ require([
 
     var visualLayer = new ImageryLayer({
       // url: 'https://landsat.arcgis.com/arcgis/rest/services/Landsat/MS/ImageServer',
-      url: 'https://landsat.arcgis.com/arcgis/rest/services/Landsat8_Views/ImageServer',
-      title: 'Landsat 8 — natural color',
+      url: 'https://sentinel.arcgis.com/arcgis/rest/services/Sentinel2/ImageServer',
+      title: 'Sentinel 2— natural color',
       format: 'jpgpng',
       renderingRule: new RasterFunction({
         functionName: 'Natural Color with DRA'
