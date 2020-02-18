@@ -335,7 +335,7 @@ require([
   var initialBlueBand = 2;
 
   var layer = new ImageryLayer({
-    url: 'https://sentinel.arcgis.com/arcgis/rest/services/Sentinel2/ImageServer',
+    url: 'https://utility.arcgis.com/usrsvcs/servers/4a4e762c42fb44d094df333e29da5fc6/rest/services/Sentinel2/ImageServer?token=SwLo_hAnplgfBGub9IDOihIugrGWfgKFrSr0sDgAeoiB9veQS8GjFkC0B_KffdDMgbPQq0HFz5TjMsiHNMu-dWnIk6KFaQcsbrLqrV00wQlO-7NLXjQaXHPIvmtVCx9ukwnuuZsN3gCxJ1FQukoefO-L2E_1wWgierXNi765TnKXwAqKZp22tSOqMsn3hIuLolJ3Tv9nysqnaNW-7JifCN7ZCwtDNnd6J1DYPgph3i3GggO711T0rwD2Jmi_sDQp',
     // renderingRule: rasterFunctionNone,
     renderingRule: createExtractAndStretchRasterFunction([initialRedBand, initialGreenBand, initialBlueBand]),
     pixelFilter: pixelFilter,
