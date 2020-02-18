@@ -7,6 +7,7 @@ Mapping and charting pixels from remote sensing Earth observation data with Java
 <https://pjmclaughlin1979.github.io/pixels/charting/>
 
 Original
+https://jwasilgeo.github.io/pixels/charting/
 ## [charting](https://jwasilgeo.github.io/pixels/charting/)
 
 Histograms and 3D scatterplots of R, G, B pixel values. Choose your own Landsat 8 band combinations to explore the data.
