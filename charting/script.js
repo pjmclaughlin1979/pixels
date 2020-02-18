@@ -16,7 +16,7 @@ require([
     map: new EsriMap({
       basemap: 'dark-gray'
     }),
-    zoom: 8,
+    zoom: 12,
     center: [-5.937, 54.594]
   });
 
