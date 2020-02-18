@@ -1,6 +1,6 @@
 # pixels
 
-Mapping and charting pixels from remote sensing Earth observation data with JavaScript.
+Mapping and charting pixels from remote sensing Earth observation data with JavaScript. Forked from https://jwasilgeo.github.io/pixels/charting/
 
 ## [charting](https://jwasilgeo.github.io/pixels/charting/)
 
